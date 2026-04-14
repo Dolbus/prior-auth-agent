@@ -1191,5 +1191,29 @@ with tab5:
                 key="dl_insurer",
             )
 
+    # ── Row 3: Ground Truth ───────────────────────────────────────────────────
+    r3_text, r3_btn = st.columns([9, 1])
+    with r3_text:
+        st.markdown("""
+        <div style="padding:20px 0 18px 0;border-top:1px solid #1f1f1f;">
+          <div style="font-size:13px;font-weight:600;color:#ffffff;margin-bottom:5px;">
+            Ground Truth Labels
+          </div>
+          <div style="font-size:11px;color:#6b6b6b;line-height:1.6;">
+            Correct PA decisions for all 120 cases · APPROVED, DENIED, NEEDS_MORE_INFO · locked reference used across all 10 experiments
+          </div>
+        </div>
+        """, unsafe_allow_html=True)
+    with r3_btn:
+        st.markdown('<div style="padding-top:22px;"></div>', unsafe_allow_html=True)
+        with open(ROOT / "data" / "ground_truth.csv", "rb") as f:
+            st.download_button(
+                label="↓",
+                data=f.read(),
+                file_name="ground_truth.csv",
+                mime="text/csv",
+                key="dl_ground_truth",
+            )
+
     st.markdown('<div style="border-top:1px solid #1f1f1f;"></div>', unsafe_allow_html=True)
 
