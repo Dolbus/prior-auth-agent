@@ -1,0 +1,25 @@
+patient_id,drug_name,reference_pa_decision,prediction_pa_decision,expected_reasoning_dataset,note
+PA-057,Praluent,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-067,Ibrance,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-042,Repatha,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-087,PET Scan Whole Body,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-014,Mounjaro,DENIED,NEEDS_MORE_INFO,Missing lab results requires escalation.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-107,Latuda,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-062,Keytruda,DENIED,NEEDS_MORE_INFO,Invalid diagnosis.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-007,Wegovy,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-073,Opdivo,DENIED,NEEDS_MORE_INFO,Lab value borderline but below threshold.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-052,Repatha,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-097,MRI Brain,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-074,Opdivo,DENIED,NEEDS_MORE_INFO,Missing lab results requires escalation.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-022,Humira,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-047,Praluent,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-071,Opdivo,DENIED,NEEDS_MORE_INFO,Meets all criteria.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-077,Keytruda,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-017,Victoza,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-082,MRI Lumbar Spine,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-092,CT Abdomen/Pelvis,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-002,Ozempic,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-102,Spravato,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-012,Mounjaro,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-027,Dupixent,DENIED,NEEDS_MORE_INFO,Missing required step therapy.,Full rules_checker narrative is in LangSmith trace (offline audit).
+PA-072,Opdivo,DENIED,NEEDS_MORE_INFO,Invalid diagnosis.,Full rules_checker narrative is in LangSmith trace (offline audit).

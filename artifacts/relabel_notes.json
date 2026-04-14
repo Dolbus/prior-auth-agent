@@ -1,0 +1,208 @@
+{
+  "experiment": "exp06d1-final-fix-e6db96c2",
+  "purpose": "Read-only audit: LangSmith dataset reference vs experiment actual; secondary drift check vs patients.json. No labels were modified.",
+  "summary": {
+    "total_examples": 120,
+    "aligned": 37,
+    "mismatched": 83,
+    "empty_actual": 30,
+    "missing_patient_id": 0,
+    "missing_actual_run": 0,
+    "reference_vs_json_aligned": 63,
+    "reference_vs_json_drift": 57
+  },
+  "patterns": {
+    "DENIED \u2192 EMPTY": {
+      "count": 16,
+      "patient_ids": [
+        "PA-101",
+        "PA-118",
+        "PA-057",
+        "PA-067",
+        "PA-042",
+        "PA-087",
+        "PA-038",
+        "PA-014",
+        "PA-107",
+        "PA-030",
+        "PA-048",
+        "PA-085",
+        "PA-062",
+        "PA-058",
+        "PA-007",
+        "PA-020"
+      ]
+    },
+    "DENIED \u2192 NEEDS_MORE_INFO": {
+      "count": 16,
+      "patient_ids": [
+        "PA-073",
+        "PA-052",
+        "PA-097",
+        "PA-074",
+        "PA-022",
+        "PA-047",
+        "PA-071",
+        "PA-077",
+        "PA-017",
+        "PA-082",
+        "PA-092",
+        "PA-002",
+        "PA-102",
+        "PA-012",
+        "PA-027",
+        "PA-072"
+      ]
+    },
+    "EMPTY \u2192 APPROVED": {
+      "count": 13,
+      "patient_ids": [
+        "PA-024",
+        "PA-076",
+        "PA-098",
+        "PA-108",
+        "PA-078",
+        "PA-028",
+        "PA-088",
+        "PA-106",
+        "PA-021",
+        "PA-093",
+        "PA-023",
+        "PA-086",
+        "PA-119"
+      ]
+    },
+    "EMPTY \u2192 NEEDS_MORE_INFO": {
+      "count": 12,
+      "patient_ids": [
+        "PA-044",
+        "PA-032",
+        "PA-112",
+        "PA-064",
+        "PA-037",
+        "PA-004",
+        "PA-117",
+        "PA-049",
+        "PA-070",
+        "PA-068",
+        "PA-059",
+        "PA-069"
+      ]
+    },
+    "NEEDS_MORE_INFO \u2192 APPROVED": {
+      "count": 9,
+      "patient_ids": [
+        "PA-113",
+        "PA-109",
+        "PA-036",
+        "PA-111",
+        "PA-091",
+        "PA-103",
+        "PA-094",
+        "PA-089",
+        "PA-026"
+      ]
+    },
+    "APPROVED \u2192 EMPTY": {
+      "count": 7,
+      "patient_ids": [
+        "PA-061",
+        "PA-116",
+        "PA-083",
+        "PA-011",
+        "PA-001",
+        "PA-031",
+        "PA-010"
+      ]
+    },
+    "DENIED \u2192 APPROVED": {
+      "count": 5,
+      "patient_ids": [
+        "PA-099",
+        "PA-016",
+        "PA-055",
+        "PA-039",
+        "PA-060"
+      ]
+    },
+    "EMPTY \u2192 DENIED": {
+      "count": 3,
+      "patient_ids": [
+        "PA-110",
+        "PA-080",
+        "PA-025"
+      ]
+    },
+    "APPROVED \u2192 DENIED": {
+      "count": 1,
+      "patient_ids": [
+        "PA-065"
+      ]
+    },
+    "NEEDS_MORE_INFO \u2192 DENIED": {
+      "count": 1,
+      "patient_ids": [
+        "PA-090"
+      ]
+    }
+  },
+  "reference_vs_json_drift_patient_ids": [
+    "PA-004",
+    "PA-009",
+    "PA-010",
+    "PA-014",
+    "PA-016",
+    "PA-019",
+    "PA-021",
+    "PA-023",
+    "PA-024",
+    "PA-025",
+    "PA-026",
+    "PA-028",
+    "PA-029",
+    "PA-032",
+    "PA-034",
+    "PA-036",
+    "PA-037",
+    "PA-039",
+    "PA-040",
+    "PA-044",
+    "PA-045",
+    "PA-049",
+    "PA-054",
+    "PA-059",
+    "PA-064",
+    "PA-065",
+    "PA-066",
+    "PA-068",
+    "PA-069",
+    "PA-070",
+    "PA-071",
+    "PA-074",
+    "PA-076",
+    "PA-078",
+    "PA-079",
+    "PA-080",
+    "PA-083",
+    "PA-086",
+    "PA-088",
+    "PA-089",
+    "PA-090",
+    "PA-091",
+    "PA-093",
+    "PA-094",
+    "PA-098",
+    "PA-099",
+    "PA-101",
+    "PA-103",
+    "PA-106",
+    "PA-108",
+    "PA-109",
+    "PA-110",
+    "PA-111",
+    "PA-112",
+    "PA-113",
+    "PA-117",
+    "PA-119"
+  ]
+}

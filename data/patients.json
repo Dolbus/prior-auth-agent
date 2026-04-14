@@ -1,0 +1,3290 @@
+[
+  {
+    "id": "PA-001",
+    "name": "Allison Hill",
+    "dob": "1967-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Ozempic",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.65",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [],
+    "npi": "3218196001",
+    "provider_name": "Dr. Robinson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-002",
+    "name": "Alyssa Gonzalez",
+    "dob": "1960-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Ozempic",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [],
+    "npi": "8637940265",
+    "provider_name": "Dr. Ramirez",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-003",
+    "name": "Phillip Garcia",
+    "dob": "1989-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Ozempic",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.65",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 6.9
+    },
+    "contraindications": [],
+    "npi": "6155940781",
+    "provider_name": "Dr. Dudley",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-004",
+    "name": "Juan Calderon",
+    "dob": "1960-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Ozempic",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.65",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9593103413",
+    "provider_name": "Dr. Delacruz",
+    "gender": "Male",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-005",
+    "name": "Jesse Flowers",
+    "dob": "1966-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Ozempic",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.65",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [
+      "medullary thyroid carcinoma"
+    ],
+    "npi": "2553419283",
+    "provider_name": "Dr. Martin",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-006",
+    "name": "William Bowman",
+    "dob": "2010-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Wegovy",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E66.01",
+      "E66.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "lifestyle modification program"
+    ],
+    "labs": {
+      "BMI_min": 31.0,
+      "BMI_with_comorbidity": 27.0
+    },
+    "contraindications": [],
+    "npi": "8350305641",
+    "provider_name": "Dr. Clark",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-007",
+    "name": "Sherri Edwards",
+    "dob": "1984-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Wegovy",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E66.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "BMI_min": 31.0,
+      "BMI_with_comorbidity": 27.0
+    },
+    "contraindications": [],
+    "npi": "7672423884",
+    "provider_name": "Dr. Burgess",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-008",
+    "name": "Kevin Cox",
+    "dob": "1984-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Wegovy",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E66.01",
+      "E66.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "lifestyle modification program"
+    ],
+    "labs": {
+      "BMI_min": 29.9,
+      "BMI_with_comorbidity": 27.0
+    },
+    "contraindications": [],
+    "npi": "2871012269",
+    "provider_name": "Dr. Brown",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-009",
+    "name": "Zachary Rice",
+    "dob": "1981-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Wegovy",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E66.01",
+      "E66.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "lifestyle modification program"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8018451462",
+    "provider_name": "Dr. Chavez",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-010",
+    "name": "Sherri Baker",
+    "dob": "2009-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Wegovy",
+      "generic": "semaglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E66.01",
+      "E66.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "lifestyle modification program"
+    ],
+    "labs": {
+      "BMI_min": 31.0,
+      "BMI_with_comorbidity": 27.0
+    },
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "8281489325",
+    "provider_name": "Dr. Farmer",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-011",
+    "name": "Paula Moreno",
+    "dob": "1986-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Mounjaro",
+      "generic": "tirzepatide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin",
+      "sulfonylurea"
+    ],
+    "labs": {
+      "A1C_min": 8.5
+    },
+    "contraindications": [],
+    "npi": "0957015430",
+    "provider_name": "Dr. Allen",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-012",
+    "name": "Angela Dennis",
+    "dob": "1994-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Mounjaro",
+      "generic": "tirzepatide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "A1C_min": 8.5
+    },
+    "contraindications": [],
+    "npi": "1822782489",
+    "provider_name": "Dr. Henderson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-013",
+    "name": "Joshua Blair",
+    "dob": "1998-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Mounjaro",
+      "generic": "tirzepatide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin",
+      "sulfonylurea"
+    ],
+    "labs": {
+      "A1C_min": 7.4
+    },
+    "contraindications": [],
+    "npi": "3465787133",
+    "provider_name": "Dr. Brown",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-014",
+    "name": "Julian Chapman",
+    "dob": "1981-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Mounjaro",
+      "generic": "tirzepatide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin",
+      "sulfonylurea"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "0103105183",
+    "provider_name": "Dr. Ramirez",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-015",
+    "name": "Mr. Nathaniel Khan",
+    "dob": "1952-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Mounjaro",
+      "generic": "tirzepatide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11",
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin",
+      "sulfonylurea"
+    ],
+    "labs": {
+      "A1C_min": 8.5
+    },
+    "contraindications": [
+      "pancreatitis"
+    ],
+    "npi": "9737631165",
+    "provider_name": "Dr. Henderson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-016",
+    "name": "Nicholas Nunez",
+    "dob": "1947-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Victoza",
+      "generic": "liraglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [],
+    "npi": "1065133387",
+    "provider_name": "Dr. Taylor",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-017",
+    "name": "Joel Baxter",
+    "dob": "2005-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Victoza",
+      "generic": "liraglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [],
+    "npi": "1781080132",
+    "provider_name": "Dr. Russell",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-018",
+    "name": "Dr. Steven Martin",
+    "dob": "1965-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Victoza",
+      "generic": "liraglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 6.9
+    },
+    "contraindications": [],
+    "npi": "0647468723",
+    "provider_name": "Dr. Phillips",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-019",
+    "name": "Lauren Daniels",
+    "dob": "2003-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Victoza",
+      "generic": "liraglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5009788208",
+    "provider_name": "Dr. Miller",
+    "gender": "Male",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-020",
+    "name": "Kurt Leonard",
+    "dob": "1974-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Victoza",
+      "generic": "liraglutide",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E11.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "metformin"
+    ],
+    "labs": {
+      "A1C_min": 8.0
+    },
+    "contraindications": [
+      "MEN 2"
+    ],
+    "npi": "3619399091",
+    "provider_name": "Dr. Barnes",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-021",
+    "name": "Kelly Donovan",
+    "dob": "1952-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Humira",
+      "generic": "adalimumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M05",
+      "M06.9",
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3534624751",
+    "provider_name": "Dr. Smith",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-022",
+    "name": "Kristine Garcia",
+    "dob": "1990-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Humira",
+      "generic": "adalimumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M05"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8384251354",
+    "provider_name": "Dr. Moore",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-023",
+    "name": "Michele Carr",
+    "dob": "1993-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Humira",
+      "generic": "adalimumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M05",
+      "M06.9",
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8084124118",
+    "provider_name": "Dr. Moore",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-024",
+    "name": "Daniel Cooper",
+    "dob": "1990-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Humira",
+      "generic": "adalimumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M05",
+      "M06.9",
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4874016400",
+    "provider_name": "Dr. Cook",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-025",
+    "name": "William Martin",
+    "dob": "1959-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Humira",
+      "generic": "adalimumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M05",
+      "M06.9",
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate"
+    ],
+    "labs": {},
+    "contraindications": [
+      "active infection"
+    ],
+    "npi": "7868011280",
+    "provider_name": "Dr. Davenport",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-026",
+    "name": "Brittany Anderson",
+    "dob": "1998-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Dupixent",
+      "generic": "dupilumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L20.9",
+      "J45.40"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "topical corticosteroids"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4505331586",
+    "provider_name": "Dr. Dickson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-027",
+    "name": "Tammy Young",
+    "dob": "1999-04-08",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Dupixent",
+      "generic": "dupilumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L20.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2260256342",
+    "provider_name": "Dr. Cobb",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-028",
+    "name": "Shane Garrison",
+    "dob": "1981-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Dupixent",
+      "generic": "dupilumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L20.9",
+      "J45.40"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "topical corticosteroids"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3375433036",
+    "provider_name": "Dr. Murphy",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-029",
+    "name": "Tracy Ramirez",
+    "dob": "1974-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Dupixent",
+      "generic": "dupilumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L20.9",
+      "J45.40"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "topical corticosteroids"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8685014294",
+    "provider_name": "Dr. Johnson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-030",
+    "name": "Haley Hartman",
+    "dob": "2011-04-08",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Dupixent",
+      "generic": "dupilumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L20.9",
+      "J45.40"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "topical corticosteroids"
+    ],
+    "labs": {},
+    "contraindications": [
+      "helminth infection"
+    ],
+    "npi": "6981693406",
+    "provider_name": "Dr. Smith",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-031",
+    "name": "Kimberly Ball",
+    "dob": "1990-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Skyrizi",
+      "generic": "risankizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate",
+      "phototherapy"
+    ],
+    "labs": {
+      "body_surface_area_min_percent": 11.0
+    },
+    "contraindications": [],
+    "npi": "3561595148",
+    "provider_name": "Dr. Parker",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-032",
+    "name": "James Phillips",
+    "dob": "1949-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Skyrizi",
+      "generic": "risankizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "body_surface_area_min_percent": 11.0
+    },
+    "contraindications": [],
+    "npi": "2366299468",
+    "provider_name": "Dr. Bass",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-033",
+    "name": "Daniel Floyd",
+    "dob": "1990-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Skyrizi",
+      "generic": "risankizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate",
+      "phototherapy"
+    ],
+    "labs": {
+      "body_surface_area_min_percent": 9.9
+    },
+    "contraindications": [],
+    "npi": "9577738721",
+    "provider_name": "Dr. Campbell",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-034",
+    "name": "Lisa Davis",
+    "dob": "1978-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Skyrizi",
+      "generic": "risankizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate",
+      "phototherapy"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3433200379",
+    "provider_name": "Dr. Atkinson",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-035",
+    "name": "Jason Soto",
+    "dob": "1994-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Skyrizi",
+      "generic": "risankizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "L40.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "methotrexate",
+      "phototherapy"
+    ],
+    "labs": {
+      "body_surface_area_min_percent": 11.0
+    },
+    "contraindications": [
+      "active TB"
+    ],
+    "npi": "3676320163",
+    "provider_name": "Dr. Thompson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-036",
+    "name": "Kelly Williams",
+    "dob": "1992-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Cosentyx",
+      "generic": "secukinumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M45.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3172788957",
+    "provider_name": "Dr. Salazar",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-037",
+    "name": "Kathy Rivas",
+    "dob": "1960-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Cosentyx",
+      "generic": "secukinumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M45.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8727743487",
+    "provider_name": "Dr. Sims",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-038",
+    "name": "Billy Mitchell",
+    "dob": "1946-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Cosentyx",
+      "generic": "secukinumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M45.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4558122362",
+    "provider_name": "Dr. Mccarthy",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-039",
+    "name": "Jason Daniels",
+    "dob": "1980-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Cosentyx",
+      "generic": "secukinumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M45.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6036690967",
+    "provider_name": "Dr. Smith",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-040",
+    "name": "Paul Castaneda",
+    "dob": "1971-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Cosentyx",
+      "generic": "secukinumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M45.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [
+      "active infection"
+    ],
+    "npi": "6889373467",
+    "provider_name": "Dr. Johnson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-041",
+    "name": "Michael Powell",
+    "dob": "1959-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin",
+      "ezetimibe"
+    ],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [],
+    "npi": "2729806990",
+    "provider_name": "Dr. Miller",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-042",
+    "name": "Sean White",
+    "dob": "1998-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [],
+    "npi": "4653755646",
+    "provider_name": "Dr. King",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-043",
+    "name": "Alec Ryan",
+    "dob": "1953-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin",
+      "ezetimibe"
+    ],
+    "labs": {
+      "LDL_min": 99.9
+    },
+    "contraindications": [],
+    "npi": "5310033092",
+    "provider_name": "Dr. Allen",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-044",
+    "name": "Brian Gould",
+    "dob": "1965-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin",
+      "ezetimibe"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "7452991241",
+    "provider_name": "Dr. Lane",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-045",
+    "name": "Laura Odonnell",
+    "dob": "1979-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin",
+      "ezetimibe"
+    ],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "6631931491",
+    "provider_name": "Dr. Hogan",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-046",
+    "name": "Amanda Patel",
+    "dob": "1974-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin"
+    ],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [],
+    "npi": "5185067165",
+    "provider_name": "Dr. Reid",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-047",
+    "name": "Michelle Graham",
+    "dob": "1964-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [],
+    "npi": "8498776945",
+    "provider_name": "Dr. Christian",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-048",
+    "name": "Angelica Keith",
+    "dob": "1960-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin"
+    ],
+    "labs": {
+      "LDL_min": 69.9
+    },
+    "contraindications": [],
+    "npi": "3799650752",
+    "provider_name": "Dr. Freeman",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-049",
+    "name": "David Ramirez",
+    "dob": "1954-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9480831367",
+    "provider_name": "Dr. Peters",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-050",
+    "name": "John Joseph",
+    "dob": "1996-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "high-intensity statin"
+    ],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "7014363495",
+    "provider_name": "Dr. Kennedy",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-051",
+    "name": "Jessica Reese",
+    "dob": "1997-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01",
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "atorvastatin",
+      "rosuvastatin"
+    ],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [],
+    "npi": "5574443135",
+    "provider_name": "Dr. Wilson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-052",
+    "name": "Pamela Lopez",
+    "dob": "1946-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [],
+    "npi": "3749894134",
+    "provider_name": "Dr. Perez",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-053",
+    "name": "Adrian Ferguson",
+    "dob": "1971-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01",
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "atorvastatin",
+      "rosuvastatin"
+    ],
+    "labs": {
+      "LDL_min": 69.9
+    },
+    "contraindications": [],
+    "npi": "4008427109",
+    "provider_name": "Dr. Mitchell",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-054",
+    "name": "Glen Sheppard",
+    "dob": "1948-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01",
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "atorvastatin",
+      "rosuvastatin"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4711671902",
+    "provider_name": "Dr. Hernandez",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-055",
+    "name": "Elizabeth Mcknight",
+    "dob": "1950-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Repatha",
+      "generic": "evolocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01",
+      "I25.10"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "atorvastatin",
+      "rosuvastatin"
+    ],
+    "labs": {
+      "LDL_min": 71.0
+    },
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "1869993867",
+    "provider_name": "Dr. Kerr",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-056",
+    "name": "Kevin Patterson",
+    "dob": "1998-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ezetimibe",
+      "simvastatin"
+    ],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [],
+    "npi": "9909133412",
+    "provider_name": "Dr. Allen",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-057",
+    "name": "Brooke Ortiz",
+    "dob": "1973-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [],
+    "npi": "9740344713",
+    "provider_name": "Dr. Bradshaw",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-058",
+    "name": "Lori Guerrero",
+    "dob": "1965-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ezetimibe",
+      "simvastatin"
+    ],
+    "labs": {
+      "LDL_min": 99.9
+    },
+    "contraindications": [],
+    "npi": "3618324210",
+    "provider_name": "Dr. Martin",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-059",
+    "name": "Paul Carroll",
+    "dob": "2002-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ezetimibe",
+      "simvastatin"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4717464887",
+    "provider_name": "Dr. Kim",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-060",
+    "name": "Stacy Navarro",
+    "dob": "1947-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Praluent",
+      "generic": "alirocumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "E78.01"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ezetimibe",
+      "simvastatin"
+    ],
+    "labs": {
+      "LDL_min": 101.0
+    },
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "9401399049",
+    "provider_name": "Dr. Williams",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-061",
+    "name": "Julie Pearson",
+    "dob": "2004-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "PD_L1_min_percent": 2.0
+    },
+    "contraindications": [],
+    "npi": "4296717565",
+    "provider_name": "Dr. Morris",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-062",
+    "name": "Christopher Jenkins",
+    "dob": "2002-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "Z00.00"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "PD_L1_min_percent": 2.0
+    },
+    "contraindications": [],
+    "npi": "7468071545",
+    "provider_name": "Dr. Wilson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Invalid diagnosis."
+  },
+  {
+    "id": "PA-063",
+    "name": "Sharon Bryan",
+    "dob": "1951-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "PD_L1_min_percent": 0.9
+    },
+    "contraindications": [],
+    "npi": "0876038597",
+    "provider_name": "Dr. Garrett",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-064",
+    "name": "Christina Dunn",
+    "dob": "1995-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4771093248",
+    "provider_name": "Dr. Smith",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-065",
+    "name": "Danny Skinner",
+    "dob": "1968-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {
+      "PD_L1_min_percent": 2.0
+    },
+    "contraindications": [
+      "autoimmune disease"
+    ],
+    "npi": "1712748467",
+    "provider_name": "Dr. Baird",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-066",
+    "name": "Juan Reyes",
+    "dob": "1974-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Ibrance",
+      "generic": "palbociclib",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C50.919"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "letrozole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9821465840",
+    "provider_name": "Dr. Campbell",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-067",
+    "name": "Kevin Duarte",
+    "dob": "1946-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Ibrance",
+      "generic": "palbociclib",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C50.919"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "7278755886",
+    "provider_name": "Dr. Gibson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-068",
+    "name": "Colin Terry",
+    "dob": "1958-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Ibrance",
+      "generic": "palbociclib",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C50.919"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "letrozole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9636057662",
+    "provider_name": "Dr. Simpson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-069",
+    "name": "Jonathan Lawrence",
+    "dob": "1961-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Ibrance",
+      "generic": "palbociclib",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C50.919"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "letrozole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "1718702621",
+    "provider_name": "Dr. Harrison",
+    "gender": "Female",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-070",
+    "name": "Gina Schwartz",
+    "dob": "1975-04-08",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Ibrance",
+      "generic": "palbociclib",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C50.919"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "letrozole"
+    ],
+    "labs": {},
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "1586578091",
+    "provider_name": "Dr. Young",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-071",
+    "name": "Donna Perez",
+    "dob": "2000-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Opdivo",
+      "generic": "nivolumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "1611724005",
+    "provider_name": "Dr. Flynn",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-072",
+    "name": "James Thomas",
+    "dob": "2003-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Opdivo",
+      "generic": "nivolumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "Z00.00"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8692221969",
+    "provider_name": "Dr. Vega",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Invalid diagnosis."
+  },
+  {
+    "id": "PA-073",
+    "name": "Mr. David Little MD",
+    "dob": "1966-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Opdivo",
+      "generic": "nivolumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "0748217594",
+    "provider_name": "Dr. Fowler",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-074",
+    "name": "David Bruce",
+    "dob": "1966-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Opdivo",
+      "generic": "nivolumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3671369594",
+    "provider_name": "Dr. Haney",
+    "gender": "Male",
+    "expected_outcome": "VALID_ESCALATION",
+    "expected_reasoning": "Missing lab results requires escalation."
+  },
+  {
+    "id": "PA-075",
+    "name": "William Barrett",
+    "dob": "1999-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Opdivo",
+      "generic": "nivolumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [
+      "pneumonitis"
+    ],
+    "npi": "4090974395",
+    "provider_name": "Dr. Robinson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-076",
+    "name": "David Campos",
+    "dob": "1993-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ipilimumab"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2104709521",
+    "provider_name": "Dr. Browning",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-077",
+    "name": "Jason Gonzalez",
+    "dob": "1952-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8588424745",
+    "provider_name": "Dr. Brock",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-078",
+    "name": "Bernard Webster",
+    "dob": "1971-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ipilimumab"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3685160481",
+    "provider_name": "Dr. Gibson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-079",
+    "name": "Megan Richards",
+    "dob": "1961-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ipilimumab"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5137098593",
+    "provider_name": "Dr. Holland",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-080",
+    "name": "Julie Haynes",
+    "dob": "1969-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Keytruda",
+      "generic": "pembrolizumab",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C43.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ipilimumab"
+    ],
+    "labs": {},
+    "contraindications": [
+      "autoimmune disease"
+    ],
+    "npi": "6120047113",
+    "provider_name": "Dr. Clay",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-081",
+    "name": "Jesse Santiago",
+    "dob": "1981-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Lumbar Spine",
+      "generic": "mri_lumbar",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M54.5"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "physical therapy 6 weeks",
+      "x-ray",
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8692617964",
+    "provider_name": "Dr. Johnson",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-082",
+    "name": "Jeremy Sampson",
+    "dob": "1984-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "MRI Lumbar Spine",
+      "generic": "mri_lumbar",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M54.5"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5158506431",
+    "provider_name": "Dr. Rush",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-083",
+    "name": "Anna Lewis",
+    "dob": "1954-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Lumbar Spine",
+      "generic": "mri_lumbar",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M54.5"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "physical therapy 6 weeks",
+      "x-ray",
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9005329318",
+    "provider_name": "Dr. Clark",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-084",
+    "name": "Sergio Murphy",
+    "dob": "1969-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Lumbar Spine",
+      "generic": "mri_lumbar",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M54.5"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "physical therapy 6 weeks",
+      "x-ray",
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2904228421",
+    "provider_name": "Dr. Guerrero",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-085",
+    "name": "Adrian Tyler",
+    "dob": "1950-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "MRI Lumbar Spine",
+      "generic": "mri_lumbar",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "M54.5"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "physical therapy 6 weeks",
+      "x-ray",
+      "NSAIDs"
+    ],
+    "labs": {},
+    "contraindications": [
+      "implanted pacemaker"
+    ],
+    "npi": "3950240268",
+    "provider_name": "Dr. Wilson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-086",
+    "name": "Jerome Cox",
+    "dob": "1993-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "PET Scan Whole Body",
+      "generic": "pet_scan",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90",
+      "C50.919",
+      "C81.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ct_scan"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9178390847",
+    "provider_name": "Dr. Schneider",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-087",
+    "name": "Zachary Boone",
+    "dob": "1990-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "PET Scan Whole Body",
+      "generic": "pet_scan",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6177115921",
+    "provider_name": "Dr. Martinez",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-088",
+    "name": "Lauren Joseph",
+    "dob": "1984-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "PET Scan Whole Body",
+      "generic": "pet_scan",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90",
+      "C50.919",
+      "C81.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ct_scan"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6984789611",
+    "provider_name": "Dr. Farrell",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-089",
+    "name": "Patricia Le",
+    "dob": "1988-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "PET Scan Whole Body",
+      "generic": "pet_scan",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90",
+      "C50.919",
+      "C81.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ct_scan"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3673657661",
+    "provider_name": "Dr. Edwards",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-090",
+    "name": "David Mckay",
+    "dob": "1979-04-08",
+    "insurance_provider": "Cigna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "PET Scan Whole Body",
+      "generic": "pet_scan",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "C34.90",
+      "C50.919",
+      "C81.90"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ct_scan"
+    ],
+    "labs": {},
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "7111161528",
+    "provider_name": "Dr. Brown",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-091",
+    "name": "Kristina Santiago",
+    "dob": "1992-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "CT Abdomen/Pelvis",
+      "generic": "ct_abdomen",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "R10.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ultrasound"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6560494519",
+    "provider_name": "Dr. Romero",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-092",
+    "name": "John Boone",
+    "dob": "1993-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "CT Abdomen/Pelvis",
+      "generic": "ct_abdomen",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "R10.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5851493689",
+    "provider_name": "Dr. Austin",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-093",
+    "name": "Allison Hickman",
+    "dob": "1991-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "CT Abdomen/Pelvis",
+      "generic": "ct_abdomen",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "R10.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ultrasound"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4024455022",
+    "provider_name": "Dr. Knight",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-094",
+    "name": "Charles Schultz",
+    "dob": "1970-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "CT Abdomen/Pelvis",
+      "generic": "ct_abdomen",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "R10.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ultrasound"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "0183667525",
+    "provider_name": "Dr. Collins",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-095",
+    "name": "Todd Carlson",
+    "dob": "1983-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "CT Abdomen/Pelvis",
+      "generic": "ct_abdomen",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "R10.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "ultrasound"
+    ],
+    "labs": {},
+    "contraindications": [
+      "severe renal impairment"
+    ],
+    "npi": "0229014767",
+    "provider_name": "Dr. Lawson",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-096",
+    "name": "Daniel Hunt",
+    "dob": "1986-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Brain",
+      "generic": "mri_brain",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "G43.909",
+      "R51"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "neurology consultation",
+      "ct_head"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5614978403",
+    "provider_name": "Dr. Foster",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-097",
+    "name": "Aimee Turner",
+    "dob": "1972-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Brain",
+      "generic": "mri_brain",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "G43.909"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3244510762",
+    "provider_name": "Dr. Anderson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-098",
+    "name": "Crystal Hansen",
+    "dob": "1978-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "MRI Brain",
+      "generic": "mri_brain",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "G43.909",
+      "R51"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "neurology consultation",
+      "ct_head"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5160607159",
+    "provider_name": "Dr. Patterson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-099",
+    "name": "Mark Roberts",
+    "dob": "1987-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "MRI Brain",
+      "generic": "mri_brain",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "G43.909",
+      "R51"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "neurology consultation",
+      "ct_head"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6052975161",
+    "provider_name": "Dr. Sanchez",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-100",
+    "name": "Kelly Foster",
+    "dob": "1983-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "MRI Brain",
+      "generic": "mri_brain",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "G43.909",
+      "R51"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "neurology consultation",
+      "ct_head"
+    ],
+    "labs": {},
+    "contraindications": [
+      "implanted pacemaker"
+    ],
+    "npi": "4535218188",
+    "provider_name": "Dr. Lee",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-101",
+    "name": "Heather Mullen",
+    "dob": "1960-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Spravato",
+      "generic": "esketamine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "SSRI",
+      "SNRI",
+      "bupropion"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2312432921",
+    "provider_name": "Dr. Thompson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-102",
+    "name": "Kathleen Webster",
+    "dob": "2004-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Spravato",
+      "generic": "esketamine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "9799552717",
+    "provider_name": "Dr. Ramos",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-103",
+    "name": "Donald Brown",
+    "dob": "1971-04-08",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Spravato",
+      "generic": "esketamine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "SSRI",
+      "SNRI",
+      "bupropion"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8147700541",
+    "provider_name": "Dr. Newman",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-104",
+    "name": "Ann Wheeler",
+    "dob": "2000-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Spravato",
+      "generic": "esketamine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "SSRI",
+      "SNRI",
+      "bupropion"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6798079359",
+    "provider_name": "Dr. Alvarez",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-105",
+    "name": "Antonio Garcia",
+    "dob": "1949-04-07",
+    "insurance_provider": "Aetna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Spravato",
+      "generic": "esketamine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "SSRI",
+      "SNRI",
+      "bupropion"
+    ],
+    "labs": {},
+    "contraindications": [
+      "aneurysmal vascular disease"
+    ],
+    "npi": "5182037788",
+    "provider_name": "Dr. Bishop",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-106",
+    "name": "Thomas Hughes",
+    "dob": "2007-04-08",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Latuda",
+      "generic": "lurasidone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F20.9",
+      "F31.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "aripiprazole",
+      "risperidone"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5905151864",
+    "provider_name": "Dr. King",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-107",
+    "name": "Tracey Morrison",
+    "dob": "1964-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Latuda",
+      "generic": "lurasidone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F20.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2519254629",
+    "provider_name": "Dr. Fletcher",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-108",
+    "name": "Justin Schneider",
+    "dob": "2006-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Latuda",
+      "generic": "lurasidone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F20.9",
+      "F31.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "aripiprazole",
+      "risperidone"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "5281685054",
+    "provider_name": "Dr. White",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-109",
+    "name": "Travis Tucker",
+    "dob": "1958-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Latuda",
+      "generic": "lurasidone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F20.9",
+      "F31.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "aripiprazole",
+      "risperidone"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3221418880",
+    "provider_name": "Dr. Stanley",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-110",
+    "name": "Lisa Harper",
+    "dob": "1978-04-07",
+    "insurance_provider": "Cigna",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Latuda",
+      "generic": "lurasidone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F20.9",
+      "F31.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "aripiprazole",
+      "risperidone"
+    ],
+    "labs": {},
+    "contraindications": [
+      "strong CYP3A4 inhibitors"
+    ],
+    "npi": "2229270653",
+    "provider_name": "Dr. Montes",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-111",
+    "name": "Nicole Bowers",
+    "dob": "1992-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Vraylar",
+      "generic": "cariprazine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F31.9",
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "quetiapine",
+      "aripiprazole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3834735977",
+    "provider_name": "Dr. Hammond",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-112",
+    "name": "Kathryn Barnes",
+    "dob": "1999-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Vraylar",
+      "generic": "cariprazine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F31.9"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2392407581",
+    "provider_name": "Dr. Dawson",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-113",
+    "name": "Belinda Miller",
+    "dob": "1974-04-07",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Vraylar",
+      "generic": "cariprazine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F31.9",
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "quetiapine",
+      "aripiprazole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "2478261375",
+    "provider_name": "Dr. Arias",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-114",
+    "name": "James Brooks",
+    "dob": "2003-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Vraylar",
+      "generic": "cariprazine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F31.9",
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "quetiapine",
+      "aripiprazole"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "6153051522",
+    "provider_name": "Dr. Johnson",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-115",
+    "name": "Kaitlyn Guerra",
+    "dob": "1999-04-08",
+    "insurance_provider": "UnitedHealthcare",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Vraylar",
+      "generic": "cariprazine",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F31.9",
+      "F33.2"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "quetiapine",
+      "aripiprazole"
+    ],
+    "labs": {},
+    "contraindications": [
+      "pregnancy"
+    ],
+    "npi": "7790104328",
+    "provider_name": "Dr. Bentley",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  },
+  {
+    "id": "PA-116",
+    "name": "Jenny Parsons",
+    "dob": "1975-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Zulresso",
+      "generic": "brexanolone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F53.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "oral antidepressants 4 weeks"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "3410369711",
+    "provider_name": "Dr. Copeland",
+    "gender": "Male",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets all criteria."
+  },
+  {
+    "id": "PA-117",
+    "name": "Mr. Mark Andrews DDS",
+    "dob": "1948-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "PPO",
+    "requested_treatment": {
+      "name": "Zulresso",
+      "generic": "brexanolone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F53.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [],
+    "labs": {},
+    "contraindications": [],
+    "npi": "4609539621",
+    "provider_name": "Dr. Mills",
+    "gender": "Male",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Missing required step therapy."
+  },
+  {
+    "id": "PA-118",
+    "name": "Troy Stephens",
+    "dob": "1947-04-08",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Zulresso",
+      "generic": "brexanolone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F53.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "oral antidepressants 4 weeks"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "8806706540",
+    "provider_name": "Dr. Kelly",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Lab value borderline but below threshold."
+  },
+  {
+    "id": "PA-119",
+    "name": "David Sandoval",
+    "dob": "1985-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "HMO",
+    "requested_treatment": {
+      "name": "Zulresso",
+      "generic": "brexanolone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F53.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "oral antidepressants 4 weeks"
+    ],
+    "labs": {},
+    "contraindications": [],
+    "npi": "1952058527",
+    "provider_name": "Dr. Pollard",
+    "gender": "Female",
+    "expected_outcome": "APPROVED",
+    "expected_reasoning": "Meets criteria."
+  },
+  {
+    "id": "PA-120",
+    "name": "Clarence Taylor",
+    "dob": "1950-04-07",
+    "insurance_provider": "Humana",
+    "plan_type": "EPO",
+    "requested_treatment": {
+      "name": "Zulresso",
+      "generic": "brexanolone",
+      "dosage": "Standard dose"
+    },
+    "diagnoses": [
+      "F53.0"
+    ],
+    "current_medications": [],
+    "prior_treatments": [
+      "oral antidepressants 4 weeks"
+    ],
+    "labs": {},
+    "contraindications": [
+      "ESRD"
+    ],
+    "npi": "7043030548",
+    "provider_name": "Dr. Sanders",
+    "gender": "Female",
+    "expected_outcome": "DENIED",
+    "expected_reasoning": "Contraindication is present."
+  }
+]

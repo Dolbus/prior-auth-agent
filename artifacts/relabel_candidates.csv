@@ -1,0 +1,84 @@
+patient_id,current_reference,actual_prediction,json_expected,pattern,proposed_reference,reason,review_status
+PA-101,DENIED,,APPROVED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-118,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-061,APPROVED,,APPROVED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-057,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-116,APPROVED,,APPROVED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-067,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-042,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-087,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-083,APPROVED,,DENIED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-038,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-014,DENIED,,VALID_ESCALATION,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-011,APPROVED,,APPROVED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-001,APPROVED,,APPROVED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-107,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-030,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-048,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-085,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-062,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-031,APPROVED,,APPROVED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-010,APPROVED,,DENIED,APPROVED → EMPTY,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-058,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-007,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-020,DENIED,,DENIED,DENIED → EMPTY,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-044,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-024,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-110,,DENIED,DENIED,EMPTY → DENIED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-032,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-076,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-113,NEEDS_MORE_INFO,APPROVED,DENIED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-098,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-109,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-112,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-099,DENIED,APPROVED,APPROVED,DENIED → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-073,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-016,DENIED,APPROVED,APPROVED,DENIED → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-036,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-055,DENIED,APPROVED,DENIED,DENIED → APPROVED,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-065,APPROVED,DENIED,DENIED,APPROVED → DENIED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-108,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-111,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-064,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-052,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-091,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-103,NEEDS_MORE_INFO,APPROVED,DENIED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-037,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-080,,DENIED,DENIED,EMPTY → DENIED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-039,DENIED,APPROVED,APPROVED,DENIED → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-078,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-060,DENIED,APPROVED,DENIED,DENIED → APPROVED,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-025,,DENIED,DENIED,EMPTY → DENIED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-094,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-028,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-004,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-088,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-097,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-117,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-089,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-090,NEEDS_MORE_INFO,DENIED,DENIED,NEEDS_MORE_INFO → DENIED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-106,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-074,DENIED,NEEDS_MORE_INFO,VALID_ESCALATION,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-021,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-022,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-049,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-047,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-093,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-071,DENIED,NEEDS_MORE_INFO,APPROVED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-077,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-023,,APPROVED,DENIED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-017,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-082,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-092,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-070,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-002,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-086,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-119,,APPROVED,APPROVED,EMPTY → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-026,NEEDS_MORE_INFO,APPROVED,APPROVED,NEEDS_MORE_INFO → APPROVED,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-068,,NEEDS_MORE_INFO,DENIED,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-059,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-102,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-012,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-069,,NEEDS_MORE_INFO,VALID_ESCALATION,EMPTY → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output. Note: LangSmith reference also differs from patients.json expected_outcome (drift).,PENDING
+PA-027,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
+PA-072,DENIED,NEEDS_MORE_INFO,DENIED,DENIED → NEEDS_MORE_INFO,,LangSmith reference pa_decision differs from experiment run output.,PENDING
