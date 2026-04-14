@@ -1206,12 +1206,12 @@ with tab5:
         """, unsafe_allow_html=True)
     with r3_btn:
         st.markdown('<div style="padding-top:22px;"></div>', unsafe_allow_html=True)
-        with open(ROOT / "data" / "ground_truth.csv", "rb") as f:
+        with open(ROOT / "data" / "ground_truth.json", "rb") as f:
             st.download_button(
                 label="↓",
                 data=f.read(),
-                file_name="ground_truth.csv",
-                mime="text/csv",
+                file_name="ground_truth.json",
+                mime="application/json",
                 key="dl_ground_truth",
             )
 

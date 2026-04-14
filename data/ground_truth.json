@@ -1,0 +1,482 @@
+[
+  {
+    "patient_id": "PA-001",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-002",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-003",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-004",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-005",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-006",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-007",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-008",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-009",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-010",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-011",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-012",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-013",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-014",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-015",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-016",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-017",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-018",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-019",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-020",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-021",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-022",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-023",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-024",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-025",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-026",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-027",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-028",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-029",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-030",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-031",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-032",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-033",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-034",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-035",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-036",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-037",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-038",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-039",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-040",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-041",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-042",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-043",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-044",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-045",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-046",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-047",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-048",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-049",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-050",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-051",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-052",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-053",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-054",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-055",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-056",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-057",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-058",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-059",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-060",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-061",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-062",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-063",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-064",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-065",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-066",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-067",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-068",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-069",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-070",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-071",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-072",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-073",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-074",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-075",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-076",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-077",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-078",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-079",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-080",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-081",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-082",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-083",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-084",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-085",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-086",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-087",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-088",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-089",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-090",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-091",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-092",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-093",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-094",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-095",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-096",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-097",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-098",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-099",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-100",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-101",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-102",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-103",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-104",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-105",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-106",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-107",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-108",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-109",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-110",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-111",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-112",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-113",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-114",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-115",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-116",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-117",
+    "ground_truth_decision": "NEEDS_MORE_INFO"
+  },
+  {
+    "patient_id": "PA-118",
+    "ground_truth_decision": "DENIED"
+  },
+  {
+    "patient_id": "PA-119",
+    "ground_truth_decision": "APPROVED"
+  },
+  {
+    "patient_id": "PA-120",
+    "ground_truth_decision": "DENIED"
+  }
+]
