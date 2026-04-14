@@ -812,18 +812,18 @@ with tab2:
 
         o1, o2, o3 = st.columns(3)
         for col, border, badge_txt, title, metric_txt, metric_color, action, impact in [
-            (o1, "#ef4444", "EXP 12 TARGET", "Writer Node Latency",
-             "10.07s → ~4s target", "#ef4444",
-             "Replace free-form generation with OpenAI structured outputs / function calling",
-             "~27% TAT reduction · ~$0.004/case cost saving"),
-            (o2, "#f59e0b", "EXP 13 TARGET", "Token Efficiency",
-             "5,154 → ~3,500 tokens/case", "#f59e0b",
-             "Research agent context compression · supervisor gate prompt optimization",
-             "~30% cost reduction per authorization"),
-            (o3, "#f59e0b", "EXP 11 TARGET", "Drug Synonym Resolution",
+            (o1, "#f59e0b", "EXP 11 TARGET", "Drug Synonym Resolution",
              "Brand/generic mismatch unresolved", "#f59e0b",
              "RxNorm API integration in Research Agent (e.g. Zocor → simvastatin)",
              "+2–4% PA Decision Accuracy"),
+            (o2, "#ef4444", "EXP 12 TARGET", "Writer Node Latency",
+             "10.07s → ~4s target", "#ef4444",
+             "Replace free-form generation with OpenAI structured outputs / function calling",
+             "~27% TAT reduction · ~$0.004/case cost saving"),
+            (o3, "#f59e0b", "EXP 13 TARGET", "Token Efficiency",
+             "5,154 → ~3,500 tokens/case", "#f59e0b",
+             "Research agent context compression · supervisor gate prompt optimization",
+             "~30% cost reduction per authorization"),
         ]:
             with col:
                 st.markdown(f"""
