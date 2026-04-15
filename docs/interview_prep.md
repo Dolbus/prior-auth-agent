@@ -286,3 +286,19 @@ A: Two reasons. First, HIPAA — real patient records can't be used without a co
 
 **Q: What does $0.012 per case actually mean in context?**
 A: Manual prior auth review costs $8–12 per case in human staff time — that's the industry figure. At $0.012 per case, the AI path is roughly 1000x cheaper per decision. The deterministic Python cases run at $0.000 — no API call at all. Cost per case could drop further as more cases are routed to the Python path.
+
+---
+
+## DeepMind-Level Probe Questions — Phase 1 vs Phase 2 Failures
+
+**Q: How did you know the gate was over-strict vs the data being genuinely ambiguous?**
+A: LangSmith traces showed Gate 2 firing with a specific rejection reason — it was flagging cases as incomplete because `labs` and `clinical_notes` fields were empty or null. But when I looked at the actual patient records, those fields weren't missing by error — the synthetic data was designed without mandatory lab results for every case. The gate was treating "field not present" as "incomplete submission" rather than "not applicable." That's an observable pattern in the traces — every single UNKNOWN had the same Gate 2 rejection string, not a distribution of different reasons. If it had been genuine data ambiguity, you'd expect varied rejection reasons across cases.
+
+**Q: What changed between Phase 1 and your locked baseline?**
+A: Two gate configuration changes across Exps 1 and 2. Exp 1: made labs and clinical notes optional in Gate 2 — NOT FOUND is a valid extraction result, not a failure. That dropped UNKNOWNs from 35 to 22. Exp 2: declared missing admin fields — DOB, NPI, group ID — acceptable in a synthetic environment at Gate 4. That cleared the remaining 22. Once all 120 cases were producing decisions end to end, I introduced LangSmith as the eval harness, locked the dataset, and switched the primary metric from factual accuracy to exact match. That became the baseline — 19.2% on Exp 4, the first run under controlled conditions.
+
+**Q: Why 120 cases specifically?**
+A: Practical constraint first — at $0.012 per case running 10+ experiments, 120 cases kept the full cohort eval cost under $2 per run, which meant I could run it repeatedly without thinking about budget. The composition was intentional though: 72 DENIED, 36 APPROVED, 12 NEEDS_MORE_INFO — reflecting the real-world distribution where denials dominate PA decisions. And 4 payers × 6 drug categories gave enough combinatorial variety to stress-test the rules engine across different insurer criteria. It's not a statistically powered sample size by research standards — I'd say that directly if asked. What it is is a controlled, repeatable cohort where every run is comparable because nothing changes between experiments.
+
+**Context note — 35 UNKNOWNs vs 18 misclassifications (keep these straight):**
+These are two different failure modes from two different phases. The 35 UNKNOWNs (Phase 1) were pipeline failures — the system couldn't complete a prediction at all because supervisor gates had over-strict configuration for synthetic data. Fixed in Exps 1–2 before any accuracy measurement was possible. The 18 misclassifications (Phase 4, Exp 10 audit) were accuracy failures — the system ran and produced a decision, but the wrong one. Specifically: empty prior_treatments list → model said NEEDS_MORE_INFO instead of DENIED. That's a logic failure on a deterministic case, traced and fixed via LangSmith. If an interviewer asks about the 35 UNKNOWNs: "That was Phase 1 — the pipeline wasn't completing runs at all. Gate configuration was over-strict for synthetic data. Fixed in the first two experiments before we had a meaningful baseline to evaluate against."
