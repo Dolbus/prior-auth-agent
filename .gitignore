@@ -28,3 +28,10 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+
+# Internal working docs (kept local, not portfolio-facing)
+docs/
+PROGRESS.md
+artifacts/
+batch_run_output.log
+failed_five_results.json
