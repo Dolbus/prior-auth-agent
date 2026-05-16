@@ -189,7 +189,7 @@
       "latency_p50": 24.4,
       "tokens": 492233,
       "status": "contaminated",
-      "notes": "CONTAMINATED: −18 quota kills, −4 over-deny, −8 LLM regressions. 18/18 target cases row-confirmed fixed. Projected clean: 78–82%."
+      "notes": "CONTAMINATED: −18 quota kills, −4 over-deny, −8 LLM regressions. Not used as benchmark; 18/18 target cases row-confirmed fixed."
     }
   ]
 }

@@ -211,7 +211,7 @@ with tab1:
       </div>
       <div style="font-size:13px;color:#6b6b6b;margin-top:20px;max-width:560px;line-height:1.7;">
         A multi-agent LangGraph system evaluated across 10 controlled experiments
-        on a locked dataset of 120 synthetic PA cases.
+        on a fixed cohort of 120 synthetic PA cases.
       </div>
     </div>
     """, unsafe_allow_html=True)
@@ -632,7 +632,7 @@ with tab2:
         <div style="padding:24px 0 8px 0;">
           <div style="font-size:10px;font-weight:600;letter-spacing:0.12em;
                       text-transform:uppercase;color:#6b6b6b;">
-            Did the agent get the decision right? — 10 experiments · 120-case locked dataset
+            Did the agent get the decision right? — 10 experiments · 120-case synthetic cohort
           </div>
         </div>
         """, unsafe_allow_html=True)
@@ -692,13 +692,13 @@ with tab2:
         ))
         fig_line.add_hline(
             y=70.0, line_dash="dot", line_color="#22c55e", opacity=0.4,
-            annotation_text="70.0% locked benchmark (Exp 9)",
+            annotation_text="70.0% clean benchmark (Exp 9)",
             annotation_font=dict(color="#22c55e", size=10),
             annotation_position="right",
         )
         fig_line.update_layout(
             **PLOTLY_BASE,
-            title=dict(text="PA Decision Accuracy — 10 experiments · n=120 locked dataset",
+            title=dict(text="PA Decision Accuracy — 10 experiments · n=120 synthetic cohort",
                        font=dict(color="#ffffff", size=13)),
             yaxis=dict(title="Accuracy %", ticksuffix="%", range=[0, 83],
                        gridcolor=grid_color(), color="#6b6b6b", zeroline=False),
@@ -1051,12 +1051,12 @@ with tab4:
 
     card_data = [
         (row1_l, "#22c55e", "badge-green", "IN PROGRESS", "Decision Quality", [
-            "Exp 10b: clean rerun — 78–82% projected",
+            "Exp 10b: clean rerun of contaminated zero-step fix",
             "Exp 11: RxNorm drug synonyms · field-level NLP eval (lab values, ICD-10 codes)",
-            "Exp 12: fix 4 over-deny regressions → 80%+ clean",
+            "Exp 12: fix 4 over-deny regressions and re-evaluate",
         ]),
         (row1_r, "#f59e0b", "badge-amber", "PLANNED", "Reliability Engineering", [
-            "Async pipeline: 82 → ~400 cases/hr throughput",
+            "Async pipeline throughput test under realistic rate limits",
             "Structured output enforcement (OpenAI function calling) — eliminates schema hallucinations",
         ]),
         (row2_l, "#f59e0b", "badge-amber", "PLANNED", "Clinical Safety", [
@@ -1200,7 +1200,7 @@ with tab5:
             Ground Truth Labels
           </div>
           <div style="font-size:11px;color:#6b6b6b;line-height:1.6;">
-            Correct PA decisions for all 120 cases · APPROVED, DENIED, NEEDS_MORE_INFO · locked reference used across all 10 experiments
+            Reference labels for 120 synthetic cases · APPROVED, DENIED, NEEDS_MORE_INFO · audited during the experiment series
           </div>
         </div>
         """, unsafe_allow_html=True)
@@ -1216,4 +1216,3 @@ with tab5:
             )
 
     st.markdown('<div style="border-top:1px solid #1f1f1f;"></div>', unsafe_allow_html=True)
-

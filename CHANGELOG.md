@@ -21,8 +21,7 @@ All notable changes to this project will be documented in this file.
 - **18/18 target Pattern A cases flipped correctly:** PA-057, PA-067, PA-042, PA-087, PA-107, PA-007, PA-052, PA-097, PA-022, PA-047, PA-077, PA-017, PA-082, PA-092, PA-002, PA-102, PA-012, PA-027 → all DENIED→DENIED ✅
 - Hypothesis confirmed. Code is correct. Run environment was dirty.
 
-**Clean projected score (pending re-run with topped-up credits):** **78–82%**
-- Baseline 70% + 18 fixes (+15%) − 4 over-deny regressions (−3.3%) − ~4 stable nondeterminism cases (−3.3%) ≈ 78–82%
+**Benchmark note:** No clean score is reported for Exp 10. The run needs to be repeated before any aggregate accuracy claim is made.
 
 **Cost:** $1.21 (partial — quota died ~95/120 cases) · **Latency p50:** 24.4s · **Tokens:** 492,233
 
@@ -33,7 +32,7 @@ All notable changes to this project will be documented in this file.
 **Next steps (if credits are replenished):**
 - Exp 10b: re-run same code at concurrency=1 → get clean number
 - Fix 4 over-deny regressions: make zero-steps → DENIED conditional on insurer policy in `insurer_rules.json`
-- Exp 11: add deterministic diagnosis gate + 4 relabels → projected ceiling ~85–88%
+- Exp 11: add deterministic diagnosis gate + review remaining relabel candidates
 
 **Project status:** Concluding at **70% exact_match (Exp 9, clean)** with confirmed Exp 10 fix validated at row level. Clean re-run pending.
 
@@ -130,13 +129,9 @@ if steps_matched == 0:
     return _denied_template("No required step-therapy drugs documented in prior_treatments — step therapy not completed")
 ```
 
-### Projected Impact
+### Expected Impact
 
-| Fix | Cases resolved | Exact match delta | Projected total |
-|-----|---------------|-------------------|-----------------|
-| Fix 1: zero steps → DENIED | 18 | +15.0% | **85.0%** |
-| Fix 2: relabel 4 model wins | 4 | +3.3% | **88.3%** |
-| Fix 3: diagnosis check → DENIED | 2 | +1.7% | **90.0%** |
+The zero-steps fix resolved the targeted Pattern A rows in row-level validation, but aggregate benchmark impact is not reported because the full Exp 10 run was contaminated by quota failures.
 
 ### Validation Plan
 
@@ -146,7 +141,7 @@ if steps_matched == 0:
 4. ✅ Full 120-case eval — LangSmith session `exp10-zero-steps-denied-8ba7decf` — **contaminated (quota), not a valid benchmark**
 5. ✅ Row-level validation — 18/18 target cases confirmed fixed
 6. ⬜ Clean re-run (Exp 10b) — pending OpenAI credit top-up
-7. ⬜ Exp 11: Fix 4 over-deny regressions + diagnosis gate + 4 relabels → target 85%+
+7. ⬜ Exp 11: Fix 4 over-deny regressions + diagnosis gate + remaining relabel review
 
 ### Why This Beats Random Prompt Tweaks
 
@@ -240,7 +235,7 @@ if steps_matched == 0:
 
 **vs Exp 8 (63.33%):** **+6.67** percentage points on mean `exact_match`.
 
-**Status:** **Not** **79%+** on this benchmark (offline [`quick_win_exp9.csv`](artifacts/quick_win_exp9.csv) assumed **additional** synthetic **DENIED** preds on **DENIED→NMI** rows). **Production pilot:** still **research / staging** — strong lift vs Exp 8, but **DENIED→NMI** remains the dominant error mode (~24 rows); recommend **targeted rules/supervisor** work and **error review** before production.
+**Status:** This benchmark remained below the originally hoped-for improvement target. **Production pilot:** still **research / staging** — strong lift vs Exp 8, but **DENIED→NMI** remains the dominant error mode (~24 rows); recommend **targeted rules/supervisor** work and **error review** before production.
 
 **Artifacts:** [`artifacts/exp09_quick_wins.csv`](artifacts/exp09_quick_wins.csv) (also [`artifacts/exp09_full_results.csv`](artifacts/exp09_full_results.csv) if exported earlier).
 
@@ -597,7 +592,7 @@ Sessions: **`exp06d-step-therapy-final-6b878d8e`** (6d) vs **`exp06d1-final-fix-
 **Experiment 7 — label mismatch audit (read-only) — implemented:**
 
 - **Script:** [`scripts/audit_label_misalignment.py`](scripts/audit_label_misalignment.py) — compares LangSmith **dataset reference** `outputs.pa_decision` (what [`scripts/evaluate.py`](scripts/evaluate.py) `exact_match` uses) to **experiment run** outputs for `exp06d1-final-fix-e6db96c2`, keyed by `inputs["patient_data"]["id"]`. Secondary check: LangSmith reference vs [`data/patients.json`](data/patients.json) `expected_outcome` (drift).
-- **Artifacts:** `artifacts/relabel_candidates.csv` (mismatches only; `proposed_reference` blank for human review), `artifacts/relabel_notes.json` (pattern counts and IDs).
+- **Artifacts:** private relabel audit CSV/JSON generated locally; not kept in the public repository.
 - **Tests:** [`tests/test_audit_label_misalignment.py`](tests/test_audit_label_misalignment.py) — mocked examples; no live LangSmith in default `pytest`.
 - **Interpretation:** The **30.8%** session `exact_match` on Exp 6d.1 means **~69% of rows** did not match the **LangSmith reference** label — that measures **prediction vs reference**, not “how many references are wrong.” Relabeling or dataset edits happen **only after** reviewing audit output; nothing in Exp 7 auto-writes `patients.json` or LangSmith examples.
 

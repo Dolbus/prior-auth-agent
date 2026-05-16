@@ -1,5 +1,6 @@
 # Secrets
 .env
+.claude/
 
 # Python
 __pycache__/
@@ -28,3 +29,11 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+
+# Local/private project notes and noisy run artifacts
+docs/interview_prep.md
+batch_run_output.log
+failed_five_results.json
+artifacts/relabel_candidates.csv
+artifacts/relabel_notes.json
+artifacts/quick_win_exp9.csv
